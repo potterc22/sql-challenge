@@ -18,7 +18,7 @@ CREATE TABLE employees (
 	hire_date DATE NOT NULL,
 	FOREIGN KEY (emp_title_id) REFERENCES titles(title_id)
 );
-DROP TABLE dept_emp
+
 CREATE TABLE dept_emp (
 	emp_no int NOT NULL,
 	dept_no varchar(4) NOT NULL,
